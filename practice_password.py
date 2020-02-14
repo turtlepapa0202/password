@@ -15,6 +15,7 @@ while a >= 1:
 		break
 	else:
 		a -= 1
-		print('密碼錯誤！ 還有', a, '次機會')
-if a == 0:
-	print('88')
+		if a >= 1:
+			print('密碼錯誤！ 還有', a, '次機會')
+		else:
+			print('88')
